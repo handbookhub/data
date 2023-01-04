@@ -1,5 +1,5 @@
 # How to Communicate with the Police in Germany
-![German Policeman](icon.png)
+![German Policeman](Icon.png)
 
 If you are a young person who has recently relocated or are traveling in Germany, it is important to know how to communicate with the police in case you find yourself in a situation where you need their assistance or have to interact with them. Here are some tips to keep in mind:
 
