@@ -1,0 +1,1 @@
+What should I do if I got robbed or attacked in Germany
