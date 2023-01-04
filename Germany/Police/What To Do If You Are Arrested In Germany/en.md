@@ -1,4 +1,5 @@
 # What to do if you are arrested in Germany
+![Arrest](Icon.png)
 If you find yourself in the unfortunate situation of being arrested in Germany, it is important to know your rights and how to protect them. Here are some steps you can take if you are arrested in Germany:
 
 ## Remain calm and keep your cool
