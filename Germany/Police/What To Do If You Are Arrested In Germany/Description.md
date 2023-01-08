@@ -1,1 +1,1 @@
-Step-by-step guide on what to do if arrested in Germany.
+Step-by-step guide on what to do if arrested in Germany
