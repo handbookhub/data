@@ -8,6 +8,7 @@ jobs:
         runs-on: ubuntu-latest
         env:
           EMAIL: ${{ secrets.EMAIL }}
+          LOGIN: ${{ secrets.LOGIN }}
           NAME: ${{ secrets.NAME }}
           KEY: ${{ secrets.KEY }}
         steps:
@@ -17,6 +18,6 @@ jobs:
               id: run_action
               run: git clone https://github.com/handbookhub/handbookhub_server.git
             - name: Update Credentials
-              run: cd handbookhub_server && git remote set-url origin https://"$EMAIL":"$KEY"@github.com/handbookhub/handbookhub_server.git
+              run: cd handbookhub_server && git remote set-url origin https://"$LOGIN":"$KEY"@github.com/handbookhub/handbookhub_server.git
             - name: Update repo, commit and push
               run: cd handbookhub_server && git submodule update --init --remote && git add . && git commit -m "update data submodule" && git push
