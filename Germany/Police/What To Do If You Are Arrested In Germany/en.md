@@ -27,4 +27,5 @@ When communicating with the police, it is important to use clear and concise lan
 ## Seek help if you need it
 If you are arrested or detained by the police in Germany, you have the right to a lawyer and to an interpreter. If you do not have a lawyer or do not know how to contact one, you can ask the police to provide you with a list of lawyers or refer you to legal aid. If you are a foreign national, you may also be able to contact your embassy for assistance.
 
+---
 For more information on your rights when you are arrested in Germany, you can refer to the [Federal Ministry of Justice and Consumer Protection's website](https://www.bmjv.de/EN/Topics/Police/police_node.html).
