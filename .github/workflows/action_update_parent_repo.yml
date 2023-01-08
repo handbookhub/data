@@ -9,11 +9,14 @@ jobs:
         env:
           EMAIL: ${{ secrets.EMAIL }}
           NAME: ${{ secrets.NAME }}
+          KEY: ${{ secrets.KEY }}
         steps:
             - name: Set Credentials
               run: git config --global user.email "$EMAIL" && git config --global user.name "$NAME"
             - name: Clone repo
               id: run_action
               run: git clone https://github.com/handbookhub/handbookhub_server.git
+            - name: Update Credentials
+              run: cd handbookhub_server && git remote set-url origin https://"$EMAIL":"$KEY"@github.com/{username}/github.com/handbookhub/handbookhub_server.git
             - name: Update repo, commit and push
               run: cd handbookhub_server && git submodule update --init --remote && git add . && git commit -m "update data submodule" && git push
