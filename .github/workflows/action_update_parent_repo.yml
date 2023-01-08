@@ -15,7 +15,5 @@ jobs:
             - name: Clone repo
               id: run_action
               run: git clone https://github.com/handbookhub/handbookhub_server.git
-            - name: Update repo
-              run: cd handbookhub_server && git submodule update --remote
-            - name: Commit and push
-              run: cd handbookhub_server && git add . && git commit -m "update data submodule" && git push
+            - name: Update repo, commit and push
+              run: cd handbookhub_server && git submodule update --remote && git add . && git commit -m "update data submodule" && git push
