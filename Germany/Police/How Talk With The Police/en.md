@@ -28,4 +28,5 @@ If you are arrested or detained by the police in Germany, you have the right to 
 ## Conclusion
 Communicating with the police in Germany can be intimidating, especially if you are not familiar with the language or the legal system. However, by knowing your rights, being respectful and polite, using clear and concise language, and following the instructions of the police, you can improve your chances of having a positive interaction with the police.
 
+---
 For more information on your rights when interacting with the police in Germany, you can refer to the [Federal Ministry of Justice and Consumer Protection's website](https://www.bmjv.de/EN/Topics/Police/police_node.html).
