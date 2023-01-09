@@ -16,8 +16,8 @@ jobs:
               run: git config --global user.email "$EMAIL" && git config --global user.name "$NAME"
             - name: Clone repo
               id: run_action
-              run: git clone https://github.com/handbookhub/handbookhub_server.git
+              run: git clone https://github.com/handbookhub/server.git
             - name: Update Credentials
-              run: cd handbookhub_server && git remote set-url origin https://"$LOGIN":"$KEY"@github.com/handbookhub/handbookhub_server.git
+              run: cd server && git remote set-url origin https://"$LOGIN":"$KEY"@github.com/handbookhub/server.git
             - name: Update repo, commit and push
-              run: cd handbookhub_server && git submodule update --init --remote && git add . && git commit -m "update data submodule" && git push
+              run: cd server && git submodule update --init --remote && git add . && git commit -m "update data submodule" && git push
